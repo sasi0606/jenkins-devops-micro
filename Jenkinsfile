@@ -17,5 +17,15 @@ pilpeline {
                 echo "Integration Test"
            }
 	    }   
-    }
+    } post {
+		always {
+			echo "i am very good"
+		}	
+		success {
+			echo "i run when u sucess"	
+	    }
+		failure {
+			echo "i run when you fail"
+		}
+    }	
 }		
