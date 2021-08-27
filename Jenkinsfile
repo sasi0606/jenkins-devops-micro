@@ -17,7 +17,8 @@ pilpeline {
                 echo "Integration Test"
            }
 	    }   
-    } post {
+    }
+	post {
 		always {
 			echo "i am very good"
 		}	
