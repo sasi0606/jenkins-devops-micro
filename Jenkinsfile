@@ -10,7 +10,6 @@ pilpeline {
 		stage('Test') {
 		    steps {
                 echo "Test"
-                
            }
 	    }   
 		stage('Integration Test') {
@@ -19,4 +18,4 @@ pilpeline {
            }
 	    }   
     }
-}		
+}	
